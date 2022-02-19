@@ -1,4 +1,4 @@
-package com.qipeng.jdbc.util;
+package com.qipeng.jdbc.orm;
 
 import java.beans.PropertyDescriptor;
 import java.io.InputStream;

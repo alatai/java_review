@@ -1,10 +1,8 @@
 package com.qipeng.jdbc.test;
 
-import com.qipeng.jdbc.model.Salgrade;
-import com.qipeng.jdbc.util.BaseDao;
-import com.qipeng.jdbc.util.JdbcUtil;
+import com.qipeng.jdbc.entity.Salgrade;
+import com.qipeng.jdbc.orm.JdbcUtil;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 /**

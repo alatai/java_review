@@ -1,4 +1,4 @@
-package com.qipeng.jdbc.util;
+package com.qipeng.jdbc.orm;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

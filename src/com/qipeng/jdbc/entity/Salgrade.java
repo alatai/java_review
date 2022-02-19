@@ -1,7 +1,7 @@
-package com.qipeng.jdbc.model;
+package com.qipeng.jdbc.entity;
 
-import com.qipeng.jdbc.util.Column;
-import com.qipeng.jdbc.util.Table;
+import com.qipeng.jdbc.orm.Column;
+import com.qipeng.jdbc.orm.Table;
 
 import java.math.BigDecimal;
 

@@ -9,14 +9,14 @@ import java.sql.*;
  */
 public class TestJdbc {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/base?characterEncoding=UTF-8&serverTimezone=GMT%2B8&useServerPrepStms=true&cachePrepStms=true";
+    private static final String URL = "com.alatai.jdbc:mysql://localhost:3306/base?characterEncoding=UTF-8&serverTimezone=GMT%2B8&useServerPrepStms=true&cachePrepStms=true";
     private static final String USER = "root";
     private static final String PASSWORD = "Qp/19940413";
 
     static {
         try {
             // 注册驱动
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.cj.com.alatai.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -78,3 +78,4 @@ public class TestJdbc {
         }
     }
 }
+

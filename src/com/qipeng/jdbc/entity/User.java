@@ -1,4 +1,4 @@
-package com.qipeng.jdbc.model;
+package com.qipeng.jdbc.entity;
 
 /**
  * @author Alatai
