@@ -1,5 +1,7 @@
 package com.qipeng.core.commons;
 
+import java.util.Arrays;
+
 @SuppressWarnings("ConstantConditions")
 public class TestEnum {
 
@@ -10,6 +12,19 @@ public class TestEnum {
         // enum类型的每个常量在JVM中只有一个唯一实例，所以可以直接用==比较
         if (day == Weekday.MON) {
             System.out.println("Weekday.MON");
+        }
+
+        System.out.println(Color.RED instanceof Enum);
+
+        Color[] colors = Color.values();
+        System.out.println(Arrays.toString(colors));
+
+        Color black = Color.valueOf("BLACK");
+        int index = black.ordinal();
+        System.out.println(index);
+
+        for (Color color : colors) {
+            System.out.println(color);
         }
     }
 
